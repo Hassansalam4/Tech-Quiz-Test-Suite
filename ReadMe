@@ -1,0 +1,47 @@
+
+Front End 
+React
+
+Backend
+
+Node.js
+Express.js
+MongoDB with Mongoose
+
+Testing:
+
+Cypress (Component and End-to-End Testing)
+
+
+Installation:
+
+Clone the repository: 
+git clone https://github.com/Hassansalam4/Tech-Quiz-Test-Suite.git
+
+Navigate to the project directory:
+cd Develop
+
+Install dependencies for both the client and server:
+npm install
+
+Set up environment variables:
+
+Create a .env file in the server directory.
+Add the following variables:
+MONGODB_URI=<your_mongodb_connection_string>
+
+Build the server:
+
+npm run build
+
+Build the client:
+npm run client:build
+
+Seed the database :
+
+npm run seed
+
+Usage:
+
+Start the application:
+npm run start:dev
